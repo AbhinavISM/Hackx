@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_nav"
+    app:startDestination="@id/addDamage">
+
+    <fragment
+        android:id="@+id/addDamage"
+        android:name="com.example.myapplication.Book"
+        android:label="fragment_add_damage"
+        tools:layout="@layout/book" />
+    <fragment
+        android:id="@+id/findMechanics"
+        android:name="com.example.myapplication.MyProfile"
+        android:label="fragment_find_mechanics"
+        tools:layout="@layout/my_profile" />
+    <fragment
+        android:id="@+id/damages"
+        android:name="com.example.myapplication.Pervious_bookings"
+        android:label="fragment_damages"
+        tools:layout="@layout/previous_bookings" />
+</navigation>

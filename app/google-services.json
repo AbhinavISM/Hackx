@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "794724870742",
+    "project_id": "fixit-9b84b",
+    "storage_bucket": "fixit-9b84b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794724870742:android:c182e12d025bb7e516e9f7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794724870742-soenb3dthhvh5sj1rpfbtuq328cqebue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU-foAYqEoFD5WiLHNi88nahOmHjid_Wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794724870742-soenb3dthhvh5sj1rpfbtuq328cqebue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
