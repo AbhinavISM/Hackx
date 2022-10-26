@@ -297,6 +297,21 @@ public class Book extends Fragment {
                 }
             }
         });
+
+//        bookingViewModel.is_booking_done().observe(getActivity(), new Observer<Boolean>() {
+//            @Override
+//            public void onChanged(Boolean aBoolean) {
+//                if(aBoolean == null){
+//
+//                }
+//                else if (!aBoolean){
+//                    Toast.makeText(getContext(), "booking failed", Toast.LENGTH_SHORT).show();
+//                }
+//                else{
+//                    Toast.makeText(getContext(), "booking successful", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
     }
 
 }
